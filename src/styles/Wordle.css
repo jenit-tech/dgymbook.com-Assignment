@@ -1,0 +1,39 @@
+.wordle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  padding-bottom: 50px;
+ 
+}
+
+.wordle:focus {
+  outline: none; /* Applying focus style here */
+}
+
+.title {
+  text-transform: capitalize;
+  padding: 0px;
+}
+
+/* Notification Styles */
+.notification {
+  text-align: center;
+  height: 1rem;
+  margin: 1em;
+  color: salmon;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.notification-green {
+  color: #538d4e;
+}
+
+button {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+}
